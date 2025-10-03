@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-09-22T14:39:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/o_mn%C4%9B/</loc>
+    <lastmod>2025-09-22T14:39:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/%C3%BAkol_2/</loc>
+    <lastmod>2025-09-22T14:39:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/%C3%BAkol_3/</loc>
+    <lastmod>2025-09-22T14:39:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/%C3%BAkol_4/</loc>
+    <lastmod>2025-09-22T14:39:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/%C3%BAkol_5/</loc>
+    <lastmod>2025-09-22T14:39:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/semestr%C3%A1ln%C3%AD_projekt/</loc>
+    <lastmod>2025-09-22T14:39:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-09-22T14:39:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+</urlset>
