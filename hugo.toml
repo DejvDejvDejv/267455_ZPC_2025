@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://github.com/DejvDejvDejv/267455_ZPC_2025.git'
 languageCode = 'cz-cs'
 title = 'David Kolář - Portfolio ZPC'
 theme = 'ananke' 

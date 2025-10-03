@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Úvodní stránka on David Kolář - Portfolio ZPC</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://github.com/DejvDejvDejv/267455_ZPC_2025.git/posts/</link>
     <description>Recent content in Úvodní stránka on David Kolář - Portfolio ZPC</description>
     <generator>Hugo</generator>
     <language>cz-cs</language>
     <lastBuildDate>Mon, 22 Sep 2025 14:39:09 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://github.com/DejvDejvDejv/267455_ZPC_2025.git/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>O mně</title>
-      <link>http://localhost:1313/posts/o_mn%C4%9B/</link>
+      <link>https://github.com/DejvDejvDejv/267455_ZPC_2025.git/posts/o_mn%C4%9B/</link>
       <pubDate>Mon, 22 Sep 2025 14:39:09 +0200</pubDate>
-      <guid>http://localhost:1313/posts/o_mn%C4%9B/</guid>
+      <guid>https://github.com/DejvDejvDejv/267455_ZPC_2025.git/posts/o_mn%C4%9B/</guid>
       <description>&lt;p&gt;Ahoj, jmenuji se &lt;strong&gt;David Kolář&lt;/strong&gt; a toto je má webová stránka. Zde se o mně můžeš dozvědět více informací:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Úkol č.2</title>
-      <link>http://localhost:1313/posts/%C3%BAkol_2/</link>
+      <link>https://github.com/DejvDejvDejv/267455_ZPC_2025.git/posts/%C3%BAkol_2/</link>
       <pubDate>Mon, 22 Sep 2025 14:39:09 +0200</pubDate>
-      <guid>http://localhost:1313/posts/%C3%BAkol_2/</guid>
-      <description></description>
+      <guid>https://github.com/DejvDejvDejv/267455_ZPC_2025.git/posts/%C3%BAkol_2/</guid>
+      <description>&lt;h3 id=&#34;2d-grafika-a-řezání&#34;&gt;2D grafika a řezání&lt;/h3&gt;</description>
     </item>
     <item>
       <title>Úkol č.3</title>
-      <link>http://localhost:1313/posts/%C3%BAkol_3/</link>
+      <link>https://github.com/DejvDejvDejv/267455_ZPC_2025.git/posts/%C3%BAkol_3/</link>
       <pubDate>Mon, 22 Sep 2025 14:39:09 +0200</pubDate>
-      <guid>http://localhost:1313/posts/%C3%BAkol_3/</guid>
+      <guid>https://github.com/DejvDejvDejv/267455_ZPC_2025.git/posts/%C3%BAkol_3/</guid>
       <description></description>
     </item>
     <item>
       <title>Úkol č.4</title>
-      <link>http://localhost:1313/posts/%C3%BAkol_4/</link>
+      <link>https://github.com/DejvDejvDejv/267455_ZPC_2025.git/posts/%C3%BAkol_4/</link>
       <pubDate>Mon, 22 Sep 2025 14:39:09 +0200</pubDate>
-      <guid>http://localhost:1313/posts/%C3%BAkol_4/</guid>
+      <guid>https://github.com/DejvDejvDejv/267455_ZPC_2025.git/posts/%C3%BAkol_4/</guid>
       <description></description>
     </item>
     <item>
       <title>Úkol č.5</title>
-      <link>http://localhost:1313/posts/%C3%BAkol_5/</link>
+      <link>https://github.com/DejvDejvDejv/267455_ZPC_2025.git/posts/%C3%BAkol_5/</link>
       <pubDate>Mon, 22 Sep 2025 14:39:09 +0200</pubDate>
-      <guid>http://localhost:1313/posts/%C3%BAkol_5/</guid>
+      <guid>https://github.com/DejvDejvDejv/267455_ZPC_2025.git/posts/%C3%BAkol_5/</guid>
       <description></description>
     </item>
     <item>
       <title>Semestrální projekt</title>
-      <link>http://localhost:1313/posts/semestr%C3%A1ln%C3%AD_projekt/</link>
+      <link>https://github.com/DejvDejvDejv/267455_ZPC_2025.git/posts/semestr%C3%A1ln%C3%AD_projekt/</link>
       <pubDate>Mon, 22 Sep 2025 14:39:09 +0200</pubDate>
-      <guid>http://localhost:1313/posts/semestr%C3%A1ln%C3%AD_projekt/</guid>
-      <description></description>
+      <guid>https://github.com/DejvDejvDejv/267455_ZPC_2025.git/posts/semestr%C3%A1ln%C3%AD_projekt/</guid>
+      <description>&lt;h3 id=&#34;pokojový-odpadkový-koš&#34;&gt;Pokojový odpadkový koš&lt;/h3&gt;</description>
     </item>
   </channel>
 </rss>
