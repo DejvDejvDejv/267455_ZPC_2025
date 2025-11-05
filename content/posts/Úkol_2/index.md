@@ -7,21 +7,18 @@ weight=3
 featured = true
 +++
 
-### 2D grafika a řezání
+### Řezání na lazeru 
 <!--more-->
-Našim dalším projektem, po webové stránce, bylo vytvořit své vlatní logo, které jsme si následně měli vyřezat na plotteru.
+V tomto projektu bylo naším úkolem vytvořit model z lepenky, který si vytvoříme na **laserové řezačce BRM-B90130X**. 
 
-Nejprve jsme logo měli ručně nakreslit na papír. Své první logo jsem pojal poměrně velkolepě. Chtěl jsem do loga zařadit ozubené kolo, kvůli mému příjmení Kolář. Logo jsem tedy nakreslil a poté převedl do programu **Inkscape**. Po převedení jsme měli logo upravit tak, aby nemělo žádné výčnělky či díry, které by mohly následně způsobovat problémy na plotteru. Již zde se ukázala nepromyšlenost mého loga. Logo bylo velice nepravidelné a složité na úpravy. Mělo v sobě nespočet děr a výčnělků. Proto jsem se rozhodl logo změnit. 
+Vymyslel jsem si, že vytvořím domeček. Nejprve jsem tedy vytvořil samostatné stěny a střechu v programu **SOLIDWORKS**. Rozhodl jsem se modely vytvářet ve 3D programu, abych si dokázal lépe představit, jak do sebe následně budou výřezy dosedat. Vytvořil jsem si i sestavu finálního složení, abych si byl jistý, že vše perfektně sedí. Poté, co jsem byl spokojený s modely, jsem vytvořil novou sestavu, ve které jsem všechny součásti položil na rovinu a následně sestavu uložil ve formátu **DXF**.
 
-![První logo](UKOL_2.1.jpeg)
+![DXF soubor](UKOL_2.1.png)
 
- Z této zkušenosti jsem si uvědomil, jak nepraktické je převést logo z papíru do programu. Z mého pohledu
-nejlepší cestou pro vytvoření loga je rovnou logo vytvářet v prgramu a nepoužívat papír jako mezikrok. Pro své druhé logo jsem tedy zvolil tuto cestu.
+Dalším krokem bylo tedy vyříznout části na laseru. Nastavení a následné řezání na stroji jsem prováděl dle návodu a ze vzpomínek na zaškolení. Laser byl nastaven na **maximální výkon 55 %, minimální výkon 50 % a rychlost posuvu 55 mm/s**. U stroje jsem pracoval s mými kolegy, takže jsme mohli dát případně hlavy dohromady. Po krátké době bylo dílo dokonáno. Mašina pod mýma rukama ani nevzplál, což beru jako nezpochybnitelný úspěch.
 
-![Práce na ploteru](UKOL_2.3.jpeg)
+![Nařezaná lepenka](UKOL_2.2.jpeg)
+
+Nakonec bylo tedy na čase vyjmout lepenku a těšit se z úspěchu. Zde jsem však pochybil. Zkrze mé natěšení jsem zbrkle vyňal lepenkovou desku a nezkontroloval, jestli řezy prošly skrz. Po prohlédnutí desky jsem zjistil, že u některých řezů laser nepropálil poslední vrstvu lepenky. Vzal jsem tedy poslední řezání do vlastních rukou a skalpelem nepropálená místa vyřezal. Následovalo už jenom složení sestavy. Modely byly správně navrženy, takže se sestavením nebyly žádné problémy. Domeček jsem následně posadil na židli evokující klidný palouček a nafotil.
  
- Pro druhý návrh loga jsem se snažil vymyslet naopak co nejjednodušší koncept. Většina spolužáků vytvářela
-loga tak aby je po vyřezání mohli nalepit. Já jsem se vydal opačným směrem. vytvořil jsem si šablonu písmena
-**K**, kterou mohu nalepit na povrch a následně barvou nastříkat toto písmeno na plochu dle mé volby. 
-
-![Druhé logo](UKOL_2.2.jpeg)
+![Složený domeček](UKOL_2.3.jpeg)

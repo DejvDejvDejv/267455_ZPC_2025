@@ -7,18 +7,17 @@ weight=4
 featured = true
 +++
 
-### Řezání na lazeru 
+### 3D tisk
 <!--more-->
-V tomto projektu bylo naším úkolem vytvořit model z lepenky, který si vytvoříme na laserové řezačce BRM-B90130X. 
+V tomto úkolu jsme se měli vytvořit jednoduchý mechanismus a následně jej vytisknout na 3D tiskárnách v dílnách StrojLabu.
 
-Vymslel jsem si, že vytvořím domeček. Nejprve jsem tedy vytvořil samostatné stěny a střechu v programu SOLIDWORKS. Rozhodl jsem se modely vytvářet ve 3D programu, abych si dokázal lépe představit, jak do sebe následně budou výřezy dosedat. Vytvořil jsem si i sestavu finálního složení, abych si byl jistý, že vše perfektně sedí. Poté, co jsem byl spokojený s modely jsem vytvořil novou sestavu, ve které jsem všechny součásti položil na rovinu a následně sestavu uložil ve formátu DXF.
+Zvolil jsem si mechanismus Maltézkého kříže. Když jsem se učil na střední škole v SOLIDWORKSu, tak byl tento mechanismus jako první sestava, co jsem kdy vytvářel. Proto jsem vybral tento mechanismus z nostalgie, a abych se zároveň porovnal, o jak moc rychleji jsem schopen tento mechanismus zkonstruovat.
 
-![DXF soubor](UKOL_3.1.png)
+Modely jsem vymodeloval v programu SOLIDWORKS. V místech volného uložení jsem zvolil vůli **0.5 mm** a pro uložení pro nalisování jsem zvolil vůli **0.1 mm**. Vytvořil jsem si i sestavu, abych měl jistotu, že vše pasuje tak jak má. Dále jsem otevřel program PrusaSlicer a přetáhl do něj své díly. Otočil jsem je tak, aby byl tisk co nejvýhodnější, a rozložení komponent po desce jsem nechal na programu. Materiál jsem zvolil **PLA** rudě červené barvy. Výplň tisku jsem nastavil na **15%** a výšku vrstvy **0.2 mm**. Nastavil jsem i tisk límce, protože měl program strach o stabilitu, pravděpodobně kvůli čepům. Tiskárnu jsem zvolil **Prusa i3**, jelikož byla zrovna volná a chuděrky se mi zželelo. Od svých spolužáků jsem totiž slyšel, že ji nikdy neviděli tisknout, tak jsem zvolil tisk na ní, aby se trochu protáhla. Tisk na této tiskárně trval něco málo pod 3 hodiny.
+![Díly v PrusaSliceru](UKOL_3.1.jpg) 
 
-Dalším krokem bylo tedy vyříznout části na laseru. Nastavení a následné řezání na stroji jsem prováděl dle návodu a ze vzpomínek na zaškolení. U stroje jsem pracoval s mými kolegy, takže jsme mohli dát případně hlavy dohromady. Po krátké době bylo dílo dokonáno. Mašina pod mýma rukama ani nevzplál, což beru jako nezpochybnitelný úspěch.
+Tisk proběhl vesměs v pořádku. Při tisku první vrstvy se na desce vytvořil takový chuchvalec plastu, který jsem rukou odstranil. Poté již nenastaly žádné komplikace.
+![Vytisklé díly](UKOL_3.2.jpeg) 
 
-![Nařezaná lepenka](UKOL_3.2.jpeg)
-
-Nakonec bylo tedy na čase vyjmout lepenku a těšit se z úspěchu. Zde jsem však zachyboval. Zkrze mé natěšení jsem zbrkle vyňal lepenkovou desku a nezkontroloval jsem, jestli řezy prošly skrz. Po prohlédnutí desky jsem zjistil, že u některých řezů laser nepropálíl poslední vrstvu lepenky. Vzal jsem tedy poslední řezání do vlastních rukou a skalpelem nepropálená místa vyřezal. Následovalo už jenom složení sestavy. Modely byly správně navrženy, takže se sestavením nebyly žádné problémy. Domeček jsem následně posadil na židli evokující klidný palouček a nafotil.
- 
-![Složený domeček](UKOL_3.3.jpeg)
+Když byl tisk hotov, tak jsem vyjmul desku s díly. Vizuálně vypadal tisk hezky. Díly jsem z podložky bez problémů odebral a očistil desku od límce. Dále následovalo sestavení mechanismu. Uložení vůle bylo zvoleno dobře, ale na nalisování už moc ne. Díly do sebe šly rukou nalisovat poměrně ztuha. V případných příštích tiscích bych ji zvolil minimálně o 0.05 mm větší. Mechanismus byl po sestavení funkční.
+![Složený mechanismus](UKOL_3.3.jpeg) 
