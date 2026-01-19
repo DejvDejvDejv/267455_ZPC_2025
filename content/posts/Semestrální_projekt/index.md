@@ -41,6 +41,7 @@ Po sepsání požadovaných funkcí jsem se vrhnul na navrhování projektu. Pro
 ## Vnější rám
 Jako první věc jsem navrhoval vnější rám, tedy největší rozměry koše. Věděl jsem, že chci mít stěny z plexiskla, tak jsem vytvořil rohy, do kterých se následně zapustilo plexisklo. Roh jsem pro tisk rozdělil celkem na tři části (noha, horní a dolní stěna). Na nohy rohu jsem ještě přidal držáky pro lištu s LED pásky. Na horní část rámu jsem navrhl lišty s vybráním pro víko a horní část rohu. Zadní horní lištu jsem rozdělil na dvě části. Tato lišta má na sobě držák pro osu víka. 
 ![Vnější rám](sw_ram.jpg)
+![Rám](https://imgur.com/gallery/r-m-zD1IYax#NFAhVnf)
 
 Na stěny jsem využil plexisklo, které jsem si nařezal do požadovaného tvaru na laserové řezačce. Zadní deska má navíc otvory pro šrouby a obdelníkovou díru pro domeček s elektronikou. 
 Díly jsem k sobě přilepil lepidlem na plasty. 
