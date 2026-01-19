@@ -41,13 +41,13 @@
       <link>http://localhost:1313/DejvDejvDejv/267455_ZPC_2025.git/posts/%C3%BAkol_5/</link>
       <pubDate>Mon, 22 Sep 2025 14:39:09 +0200</pubDate>
       <guid>http://localhost:1313/DejvDejvDejv/267455_ZPC_2025.git/posts/%C3%BAkol_5/</guid>
-      <description>&lt;h3 id=&#34;zapojení-arduina&#34;&gt;Zapojení arduina&lt;/h3&gt;&#xA;&lt;p&gt;Pro zapojení v temto miniprojektu jsem si zvolil práci s &lt;strong&gt;Ultrazvukovým měřičem vzdálenosti HC-SR04&lt;/strong&gt;. Chtěl jsem si zkusit zapojení s touto komponentou, jelikož ji budu využívat ve svém semestrálním projektu. Vymyslel jsem si zapojení, u kterého při zaznamenání vzdálenosti &lt;strong&gt;menší než 50 mm&lt;/strong&gt; se spustí sekvence diod. Pro sekvenci jsem zvolil SOS vyťukané v morzeově abecedě. Zelená dioda signaluje čárku a červena dioda pomlčku.&lt;/p&gt;&#xA;&lt;p&gt;Nejdříve jsem zapojoval diody. U těch jsem již věděl jak s nimi pracovat ze cvičení. Ze cvičení jsem měl i potřebné &lt;strong&gt;rezistory, diody, drátky a samozřejmě arduino&lt;/strong&gt;. Pro tento miniprojekt jsem potřeboval navíc pouze samotný měřič, což byla komponenta se kterou jsem dříve nepracoval. Ze začátku jsem si moc nevěděl rady se zapojením &lt;strong&gt;Trig&lt;/strong&gt; a &lt;strong&gt;Echo&lt;/strong&gt;. Na internetu jsem však našel potřebný plánek rozložení, takže se zapojením ve finále nebyly větší komplikace. Výsledné zapojení je vidět ve videu.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;zapojení-arduina&#34;&gt;Zapojení arduina&lt;/h3&gt;</description>
     </item>
     <item>
       <title>Semestrální projekt</title>
-      <link>http://localhost:1313/DejvDejvDejv/267455_ZPC_2025.git/posts/semestr%C3%A1ln%C3%AD_projekt/</link>
+      <link>http://localhost:1313/DejvDejvDejv/267455_ZPC_2025.git/posts/semestr%C3%A1ln%C3%AD_projekt/semestr%C3%A1ln%C3%AD_projekt/</link>
       <pubDate>Mon, 22 Sep 2025 14:39:09 +0200</pubDate>
-      <guid>http://localhost:1313/DejvDejvDejv/267455_ZPC_2025.git/posts/semestr%C3%A1ln%C3%AD_projekt/</guid>
+      <guid>http://localhost:1313/DejvDejvDejv/267455_ZPC_2025.git/posts/semestr%C3%A1ln%C3%AD_projekt/semestr%C3%A1ln%C3%AD_projekt/</guid>
       <description>&lt;h3 id=&#34;pokojový-odpadkový-koš&#34;&gt;Pokojový odpadkový koš&lt;/h3&gt;</description>
     </item>
   </channel>
