@@ -82,3 +82,4 @@ Na začátku projektu jsem uvažoval nad napájením elektroniky přes **powerba
 
 ## Poděkování
 Při tvorbě projektu jsem se radil se svými přáteli, bez kterých bych se mohl dlouho zaseknout na mrtvém bodě. Proto bych touto cestou rád poděkoval za užitečné rady a funkční nápady těmto lidem: **Jan Vítek, David Lokaj a Pavel Malivanek**.  
+
