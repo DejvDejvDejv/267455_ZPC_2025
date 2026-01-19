@@ -49,6 +49,7 @@ Díly jsem k sobě přilepil lepidlem na plasty.
 Na plochu víka jsem prvně vyzkoušel stejné poloprůsvitné plexisklo jako na stěny. Chtěl jsem tím pozvednout estetickou stránku koše. Při testech se však ukázalo, že je víko velice těžké a tak jsem jej nakonec vytvořil z tenkého bílého plexiskla. Ten už byl váhově ideální. Toto plexisklo má v sobě díry pro šrouby, na snímač hladiny odpadu, na vedení kabelů a na držák víka (spojení os velkého kola s víkem).
 
 Na toto víko jsem vytvořil domeček pro snímače. Je v něm jak snímač pohybu ruky, tak snímač hladiny odpadu. Kabely od snímačů jsou vedeny pod víkem k domečku s elektronikou.
+
 ![Víko SW](sw_viko.jpg)
 ![Víko IRL](irl_viko.png)
 
