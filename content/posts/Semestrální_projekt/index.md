@@ -72,7 +72,7 @@ Pro vnitřní koš jsem zvolil karton. Tento materiál jsem zvolil z důvodu, ž
 
 Koš jsem rozdělil na **dvě části** z důvodu recyklace. Jelikož se jedná o pokojový koš tak předpokládám odpad papírový a plastový. Tato verze vnitřního koše má však nevýhodu, že hladina odpadu se měří pouze v části blíže k zadní stěně koše.
 ![Vn. koš SW](https://i.imgur.com/D4PnVan.jpeg)
-![Vn. koš IRL](https://imgur.com/gallery/irl-vn-kos-fRS2lt4)
+![Vn. koš IRL](https://i.imgur.com/Nof81Oh.jpeg)
 
 ## Lišta s LED pásky
 Na podsvícení jsem si vytvořil z proužků plexiskla a vytištěných spojovačů čtvercovou lištu. Na tu jsem nastříhal části LED pásku, které jsem k liště přilepil. Dále jsem v rozích zapájel spojení LED pásku.
