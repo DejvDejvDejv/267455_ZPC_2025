@@ -11,11 +11,15 @@ featured = true
 # První nápad
 Pro téma svého semestrálního projektu jsem si zvolil **pokojový odpadkový koš**. Koš by měl mít vrchní otevírací víko, u kterého bude zabudovaný pohybový senzor (asi VL53L0X), jenž dokáže rozpoznat pohyb ruky. Tím by vyslal signál do Arduina, které by pomocí servomotoru (konkrétní typ by se zvolil podle váhy víka) otevřelo víko. Další senzor by byl zabudovaný pravděpodobně z vnitřní strany víka, který by měřil hladinu odpadu v koši. Na koš bych tedy dále zabudoval buď jednoduchou obrazovku (mohla by stačit LED matice nebo LCD obrazovka), která by mohla ukazovat procenta hladiny odpadu, případně by se napsala zpráva při vyhození odpadu. Napájení bych chtěl řešit powerbankou, ale záleží na finální náročnosti zapojení. 
 
+# Poznámka
+Při nahrávání na web se poničil repozitář fotek na GitHubu. Snažil jsem se jej opravit, ale nepodařilo se mi to. Musel jsem tedy k přidání fotek využít externí službu webu Imgur.com. Pro případ, že se vám nezobrazují fotky, přikládám odkaz na fotky nahrané na OneDrivu.
+https://vutbr-my.sharepoint.com/:f:/g/personal/267455_vutbr_cz/IgDPl429s7XfTKzuvsRrQi7dAVR-h0AN_M6bUsMIUju_S6U?e=HvJgy1
+
 # Specifikace práce
 
-## Elektronika
+## Využitá elektronika
 Na koš jsem z elektronických komponent využil Arduino UNOR3 CH340 klon, 2x ultrazvukový měřič vzdálenosti HC-SR04, servo MG995 kontinuální (360°) s kovovými převody a silou 12kg a metr LED pásku. 
-## Materiály
+## Využité materiály
 Na strany koše jsem využil **poloprůsvítné plexisklo** o tloušťce 5 mm. Na vnitřní koš jsem použil **karton** o tloušťce 6 mm. Rám LED pásku a víko koše jsem vyrobil z **bílého plexiskla** tloušťce 2 mm. Ostatní komponenty mého projektu byly vyrobeny 3D tiskem z černého **PETG**. 
 ## Finální funkce
 Hlavní funkcí koše je samootevírací víko při **přejetí rukou nad víkem**. Další funkcí koše jsou světelné módy podsvícení a mód na vynesení odpadu. U prvního návrhu jsem přemýšlel nad indikací funkcí pomocí obrazovky, ale nakonec jsem zvolil světelnou indikaci pomocí LED pásku. 
@@ -40,7 +44,7 @@ Po sepsání požadovaných funkcí jsem se vrhnul na navrhování projektu. Pro
 
 ## Vnější rám
 Jako první věc jsem navrhoval vnější rám, tedy největší rozměry koše. Věděl jsem, že chci mít stěny z plexiskla, tak jsem vytvořil rohy, do kterých se následně zapustilo plexisklo. Roh jsem pro tisk rozdělil celkem na tři části (noha, horní a dolní stěna). Na nohy rohu jsem ještě přidal držáky pro lištu s LED pásky. Na horní část rámu jsem navrhl lišty s vybráním pro víko a horní část rohu. Zadní horní lištu jsem rozdělil na dvě části. Tato lišta má na sobě držák pro osu víka. 
-![Vnější rám](sw_ram.jpg)
+
 ![Rám](https://i.imgur.com/NFAhVnf.jpeg)
 
 Na stěny jsem využil plexisklo, které jsem si nařezal do požadovaného tvaru na laserové řezačce. Zadní deska má navíc otvory pro šrouby a obdelníkovou díru pro domeček s elektronikou. 
@@ -51,37 +55,39 @@ Na plochu víka jsem prvně vyzkoušel stejné poloprůsvitné plexisklo jako na
 
 Na toto víko jsem vytvořil domeček pro snímače. Je v něm jak snímač pohybu ruky, tak snímač hladiny odpadu. Kabely od snímačů jsou vedeny pod víkem k domečku s elektronikou.
 
-![Víko SW](sw_viko.jpg)
-![Víko IRL](irl_viko.png)
+![viko sw](https://i.imgur.com/nzFQvsV.jpeg)
+![viko irl](https://i.imgur.com/RrDmvqN.png)
+
 
 ## Domeček s elektronikou a zvedacím mechanismem
 Domeček jsem navrhoval hlavně s ohledem na to, aby byl při sestavení dobrý přístup k napájení arduina a aby se do domečku vešly všechny kabely a spojky.
 
 V první verzi jsem zvedání víka realizoval **vačkovým mechanismem**. Při projektování se to jevilo jako nejsnazší řešení pro ideální výšku otevření koše. Při testech prototypu se však tato verze ukázala jako nefunkční. Servo nedokázalo přeprat velkou páku víka. Vyzkoušel jsem rukou o jakou výšku se víko dokáže zvednout tímto mechanismem, ale ukázalo se, že úhel zdvihu je v reálu mnohem menší než v návrhu. Proto jsem se nakonec rozhodl využít převod **ozubenými koly**. Díky tomu jsem byl schopen zajistit ideálnější převodový poměr, který dokázal zvednout mé víko. Také jsem byl schopen zvednout víko o 90°, což jsem využil při módu na vynesení koše.
-![Mechanismus v1](sw_mech_v1.jpg)
-![Mechanismus v2](sw_mech_v2.jpg)
+![Mechanismus v1](https://i.imgur.com/7gJKx9l.jpeg)
+![Mechanismus v2](https://i.imgur.com/F3aUy7z.jpeg)
+
 
 ## Vnitřní koš
 Pro vnitřní koš jsem zvolil karton. Tento materiál jsem zvolil z důvodu, že jsme jej měli k dispozici již na dílčí úkol 2 a mně zbyla velká nevyužitá plocha. Desky jsem si nařezal na laserové řezačce a dále slepil lepidlem. Do horní části desek jsem vyřezal otvor pro držáky vnitřního koše na lištu rámu. 
 
 Koš jsem rozdělil na **dvě části** z důvodu recyklace. Jelikož se jedná o pokojový koš tak předpokládám odpad papírový a plastový. Tato verze vnitřního koše má však nevýhodu, že hladina odpadu se měří pouze v části blíže k zadní stěně koše.
-![Vn. koš SW](sw_vn_kos.jpg)
-![Vn. koš IRL](irl_vn_kos.jpeg)
+![Vn. koš SW](https://i.imgur.com/D4PnVan.jpeg)
+![Vn. koš IRL](https://imgur.com/gallery/irl-vn-kos-fRS2lt4)
 
 ## Lišta s LED pásky
 Na podsvícení jsem si vytvořil z proužků plexiskla a vytištěných spojovačů čtvercovou lištu. Na tu jsem nastříhal části LED pásku, které jsem k liště přilepil. Dále jsem v rozích zapájel spojení LED pásku.
-![Lišta](irl_lista.jpeg)
+![Lišta](https://i.imgur.com/D2IYanZ.jpeg)
 
 ## Elektronika
 Se samotným zapojením elektroniky nebyl výraznější problém. Sestavu jsem si prvně vytvořil v **Tinkercadu** a na ní jsem testoval kód. Největší problém pro mě bylo napsání kódu. Naštěstí doba pokročila a umělá inteligence je schopna velice dobře převádět slova do kódu, takže jsem měl k dispozici osobního programátora. Před celkovou stavbou jsem si složil zapojení a otestoval na něm finální kód. Hlavní problémy byly zajistit vypnutí senzoru pro měření hladiny při otevírání víka a problikávání LED pásku, které bylo způsobeno nepřesností měření senzorem. V konečné fázi projektu bylo potřeba vyladit dobu zvedání a klesání víka, jelikož můj servomotor nedokáže pracovat v otáčkách, ale v době otáčení. 
 
 Na začátku projektu jsem uvažoval nad napájením elektroniky přes **powerbanku**. Nakonec jsem se rozhodl pro napájení **nabíječkou**. Powerbanka byla schopna zapojení utáhnout, ale musel jsem výrazně snížit svítivost pásku. Proto jsem se nakonec rozhodl pro nabíječku, díky které je podsvícení výraznější.  
-![Zapojení](zapojeni.PNG)
+![Zapojení](https://i.imgur.com/YIhfy8f.png)
 
 # Výsledek
 Zde jsou fotografie finálního výrobku:
-![Celkovy 1](irl_celkovy1.jpeg)
-![Celkovy 2](irl_celkovy2.jpeg)
+![Celkovy 1](https://i.imgur.com/abXExEC.jpeg)
+![Celkovy 2](https://i.imgur.com/ljUhA71.jpeg)
 
 ## Poděkování
 Při tvorbě projektu jsem se radil se svými přáteli, bez kterých bych se mohl dlouho zaseknout na mrtvém bodě. Proto bych touto cestou rád poděkoval za užitečné rady a funkční nápady těmto lidem: **Jan Vítek, David Lokaj a Pavel Malivanek**.  
