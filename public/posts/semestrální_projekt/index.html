@@ -49,7 +49,7 @@
   <meta itemprop="description" content="Pokojový odpadkový koš">
   <meta itemprop="datePublished" content="2025-09-22T14:39:09+02:00">
   <meta itemprop="dateModified" content="2025-09-22T14:39:09+02:00">
-  <meta itemprop="wordCount" content="1212">
+  <meta itemprop="wordCount" content="1217">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Semestrální projekt">
   <meta name="twitter:description" content="Pokojový odpadkový koš">
@@ -182,34 +182,36 @@
 <p>Po sepsání požadovaných funkcí jsem se vrhnul na navrhování projektu. Projekt jsem vytvářel v programu SOLIDWORKS, jelikož je mi nejpřirozenější. Projekt jsem rozdělil do 5 podsestav, kterými jsou: <strong>Vnější rám, víko, domeček s elektronikou a zvedacím mechanismem, vnitřní koš, lišta s LED pásky a elektronika</strong>.</p>
 <h2 id="vnější-rám">Vnější rám</h2>
 <p>Jako první věc jsem navrhoval vnější rám, tedy největší rozměry koše. Věděl jsem, že chci mít stěny z plexiskla, tak jsem vytvořil rohy, do kterých se následně zapustilo plexisklo. Roh jsem pro tisk rozdělil celkem na tři části (noha, horní a dolní stěna). Na nohy rohu jsem ještě přidal držáky pro lištu s LED pásky. Na horní část rámu jsem navrhl lišty s vybráním pro víko a horní část rohu. Zadní horní lištu jsem rozdělil na dvě části. Tato lišta má na sobě držák pro osu víka.
-<img src="SW_ram.jpg" alt="Vnější rám"></p>
+<img src="sw_ram.jpg" alt="Vnější rám">
+<img src="https://i.imgur.com/NFAhVnf.jpeg" alt="Rám"></p>
 <p>Na stěny jsem využil plexisklo, které jsem si nařezal do požadovaného tvaru na laserové řezačce. Zadní deska má navíc otvory pro šrouby a obdelníkovou díru pro domeček s elektronikou.
 Díly jsem k sobě přilepil lepidlem na plasty.</p>
 <h2 id="víko">Víko</h2>
 <p>Na plochu víka jsem prvně vyzkoušel stejné poloprůsvitné plexisklo jako na stěny. Chtěl jsem tím pozvednout estetickou stránku koše. Při testech se však ukázalo, že je víko velice těžké a tak jsem jej nakonec vytvořil z tenkého bílého plexiskla. Ten už byl váhově ideální. Toto plexisklo má v sobě díry pro šrouby, na snímač hladiny odpadu, na vedení kabelů a na držák víka (spojení os velkého kola s víkem).</p>
-<p>Na toto víko jsem vytvořil domeček pro snímače. Je v něm jak snímač pohybu ruky, tak snímač hladiny odpadu. Kabely od snímačů jsou vedeny pod víkem k domečku s elektronikou.
-<img src="SW_viko.jpg" alt="Víko SW">
-<img src="IRL_viko.png" alt="Víko IRL"></p>
+<p>Na toto víko jsem vytvořil domeček pro snímače. Je v něm jak snímač pohybu ruky, tak snímač hladiny odpadu. Kabely od snímačů jsou vedeny pod víkem k domečku s elektronikou.</p>
+<p><img src="sw_viko.jpg" alt="Víko SW">
+<img src="irl_viko.png" alt="Víko IRL"></p>
 <h2 id="domeček-s-elektronikou-a-zvedacím-mechanismem">Domeček s elektronikou a zvedacím mechanismem</h2>
 <p>Domeček jsem navrhoval hlavně s ohledem na to, aby byl při sestavení dobrý přístup k napájení arduina a aby se do domečku vešly všechny kabely a spojky.</p>
 <p>V první verzi jsem zvedání víka realizoval <strong>vačkovým mechanismem</strong>. Při projektování se to jevilo jako nejsnazší řešení pro ideální výšku otevření koše. Při testech prototypu se však tato verze ukázala jako nefunkční. Servo nedokázalo přeprat velkou páku víka. Vyzkoušel jsem rukou o jakou výšku se víko dokáže zvednout tímto mechanismem, ale ukázalo se, že úhel zdvihu je v reálu mnohem menší než v návrhu. Proto jsem se nakonec rozhodl využít převod <strong>ozubenými koly</strong>. Díky tomu jsem byl schopen zajistit ideálnější převodový poměr, který dokázal zvednout mé víko. Také jsem byl schopen zvednout víko o 90°, což jsem využil při módu na vynesení koše.
-<img src="SW_mech_v1.jpg" alt="Mechanismus v1">
-<img src="SW_mech_v2.jpg" alt="Mechanismus v2"></p>
+<img src="sw_mech_v1.jpg" alt="Mechanismus v1">
+<img src="sw_mech_v2.jpg" alt="Mechanismus v2"></p>
 <h2 id="vnitřní-koš">Vnitřní koš</h2>
 <p>Pro vnitřní koš jsem zvolil karton. Tento materiál jsem zvolil z důvodu, že jsme jej měli k dispozici již na dílčí úkol 2 a mně zbyla velká nevyužitá plocha. Desky jsem si nařezal na laserové řezačce a dále slepil lepidlem. Do horní části desek jsem vyřezal otvor pro držáky vnitřního koše na lištu rámu.</p>
 <p>Koš jsem rozdělil na <strong>dvě části</strong> z důvodu recyklace. Jelikož se jedná o pokojový koš tak předpokládám odpad papírový a plastový. Tato verze vnitřního koše má však nevýhodu, že hladina odpadu se měří pouze v části blíže k zadní stěně koše.
-<img src="SW_vn_kos.jpg" alt="Vn. koš SW">
-<img src="IRL_vn_kos.jpeg" alt="Vn. koš IRL"></p>
+<img src="sw_vn_kos.jpg" alt="Vn. koš SW">
+<img src="irl_vn_kos.jpeg" alt="Vn. koš IRL"></p>
 <h2 id="lišta-s-led-pásky">Lišta s LED pásky</h2>
 <p>Na podsvícení jsem si vytvořil z proužků plexiskla a vytištěných spojovačů čtvercovou lištu. Na tu jsem nastříhal části LED pásku, které jsem k liště přilepil. Dále jsem v rozích zapájel spojení LED pásku.
-<img src="IRL_lista.jpeg" alt="Lišta"></p>
+<img src="irl_lista.jpeg" alt="Lišta"></p>
 <h2 id="elektronika-1">Elektronika</h2>
 <p>Se samotným zapojením elektroniky nebyl výraznější problém. Sestavu jsem si prvně vytvořil v <strong>Tinkercadu</strong> a na ní jsem testoval kód. Největší problém pro mě bylo napsání kódu. Naštěstí doba pokročila a umělá inteligence je schopna velice dobře převádět slova do kódu, takže jsem měl k dispozici osobního programátora. Před celkovou stavbou jsem si složil zapojení a otestoval na něm finální kód. Hlavní problémy byly zajistit vypnutí senzoru pro měření hladiny při otevírání víka a problikávání LED pásku, které bylo způsobeno nepřesností měření senzorem. V konečné fázi projektu bylo potřeba vyladit dobu zvedání a klesání víka, jelikož můj servomotor nedokáže pracovat v otáčkách, ale v době otáčení.</p>
 <p>Na začátku projektu jsem uvažoval nad napájením elektroniky přes <strong>powerbanku</strong>. Nakonec jsem se rozhodl pro napájení <strong>nabíječkou</strong>. Powerbanka byla schopna zapojení utáhnout, ale musel jsem výrazně snížit svítivost pásku. Proto jsem se nakonec rozhodl pro nabíječku, díky které je podsvícení výraznější.<br>
-<img src="Zapojeni.PNG" alt="Zapojení"></p>
+<img src="zapojeni.PNG" alt="Zapojení"></p>
 <h1 id="výsledek">Výsledek</h1>
-<p><img src="IRL_celkovy1.jpeg" alt="Celkovy 1">
-<img src="IRL_celkovy2.jpeg" alt="Celkovy 2"></p>
+<p>Zde jsou fotografie finálního výrobku:
+<img src="irl_celkovy1.jpeg" alt="Celkovy 1">
+<img src="irl_celkovy2.jpeg" alt="Celkovy 2"></p>
 <h2 id="poděkování">Poděkování</h2>
 <p>Při tvorbě projektu jsem se radil se svými přáteli, bez kterých bych se mohl dlouho zaseknout na mrtvém bodě. Proto bych touto cestou rád poděkoval za užitečné rady a funkční nápady těmto lidem: <strong>Jan Vítek, David Lokaj a Pavel Malivanek</strong>.</p><ul class="pa0">
   
